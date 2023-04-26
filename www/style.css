@@ -1,0 +1,957 @@
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+.container {
+  margin: 0px 166px;
+}
+.header {
+  background-image: url(/img/font.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-line{
+  padding-top: 0px;
+  display: flex;
+  align-items: center;
+}
+.nav-item{
+  margin-right: 90px;
+}
+.relative{
+  position: relative;
+}
+.absoluteimg{
+  display : block;
+  position: absolute;
+  top: 70px;
+  left: 25px;
+}
+.absoluteLine{
+  display : block;
+  position: absolute;
+  left: 0px;
+}
+
+.header-logo{
+  display : block;
+  position: absolute;
+  height: 10px;
+  top: 42px;
+  left: 25px;
+}
+
+.notification{
+  display : block;
+  position: absolute;
+  top: -20px;
+  left: 313px;
+}
+
+.onlinesup{
+  display : block;
+  position: absolute;
+  top: -20px;
+  left: 428px;
+}
+
+.shop{
+  display : block;
+  position: absolute;
+  top: -21px;
+  left: 535px;
+}
+
+.bin{
+  display : block;
+  position: absolute;
+  top: -17px;
+  left: 650px;
+}
+
+.login{
+  display : block;
+  position: absolute;
+  top: -63px;
+  left: 1730px;
+}
+
+.catalog{
+  display : block;
+  position: absolute;
+  top: 143px;
+  left: 45px;
+}
+
+.search{
+  display : block;
+  position: absolute;
+  top: 142px;
+  left: 365px;
+}
+
+.popularity{
+  display : block;
+  position: absolute;
+  top: 215px;
+  left: 400px;
+}
+
+.zoom {
+  display : block;
+  position: absolute;
+  top: 153px;
+  left: 1647px;
+}
+
+.price{
+  display : block;
+  position: absolute;
+  top: 215px;
+  left: 710px;
+}
+
+.type{
+  display : block;
+  position: absolute;
+  top: 215px;
+  left: 1010px;
+}
+
+.Nalichie{
+  display : block;
+  position: absolute;
+  top: 215px;
+  left: 1310px;
+}
+
+.info li{
+  width: 40px;
+  list-style: none;
+  position: relative;
+}
+
+.info a {
+  display: list-item;
+  height: 57px;
+  transition: all .10s;
+}
+
+.info ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  padding: 0;
+}
+
+.info li:hover ul {
+  display: list-item;
+}
+
+.notification li{
+  width: 40px;
+  list-style: none;
+  position: relative;
+}
+
+.notification a {
+  display: list-item;
+  height: 59px;
+  transition: all .10s;
+}
+
+.notification ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  padding: 0;
+}
+
+.notification li:hover ul {
+  display: list-item;
+}
+
+.onlinesup li{
+  width: 40px;
+  list-style: none;
+  position: relative;
+}
+
+.onlinesup a {
+  display: list-item;
+  height: 55px;
+  transition: all .10s;
+}
+
+.onlinesup ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  padding: 0;
+}
+
+.onlinesup li:hover ul {
+  display: list-item;
+}
+
+.shop li{
+  width: 40px;
+  list-style: none;
+  position: relative;
+}
+.shop a {
+  display: list-item;
+  height: 55px;
+  transition: all .10s;
+}
+.shop ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  padding: 0;
+}
+.shop li:hover ul {
+  display: list-item;
+}
+
+.bin {
+  display : block;
+  position: absolute;
+  top: -1px;
+  left: 700px;
+}
+
+.login2 {
+  display : block;
+  position: absolute;
+  top: 400px;
+  right: 800px;
+}
+
+.IconsPos {
+  display : block;
+  position: absolute;
+  top: 50px;
+  left: 25px;
+}
+
+.InfoPos {
+  display : block;
+  position: absolute;
+  top: -19px;
+  left: 200px;
+}
+.infoicons {
+  display : block;
+  position: absolute;
+  top: 5px;
+  left: 17px;
+}
+
+.golova {
+  display : block;
+  position: absolute;
+  top: -1px;
+  left: 8px;
+}
+
+.WidgetReg{
+  display : block;
+  position: absolute;
+  top: 210px;
+  left: 500px;
+}
+
+.NameReg{
+  display : block;
+  position: absolute;
+  top: -67px;
+  left: -300px;
+}
+
+.NameReg input{
+  width: 180%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #5DE1E6;
+  outline: none;
+  src: local("PressStart2P-Regular");
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5DE1E6; 
+}
+
+.NameReg input::placeholder {
+  color: #5DE1E6;
+  opacity: 0.4;
+}
+
+.PassReg{
+  display : block;
+  position: absolute;
+  top: -25px;
+  left: -300px;
+}
+
+.PassReg input
+{
+  width: 180%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #5DE1E6;
+  outline: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5DE1E6;
+}
+
+.PassReg input::placeholder {
+  color: #5DE1E6;
+  opacity: 0.4;
+}
+
+.EmailReg{
+  display : block;
+  position: absolute;
+  top: 18px;
+  left: -300px;
+}
+
+.EmailReg input
+{
+  width: 180%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #5DE1E6;
+  outline: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5DE1E6;
+}
+
+.EmailReg input::placeholder {
+  color: #5DE1E6;
+  opacity: 0.4;
+}
+
+.BirthReg{
+  display : block;
+  position: absolute;
+  top: 64px;
+  left: -300px;
+}
+
+.BirthReg input
+{
+  width: 180%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #5DE1E6;
+  outline: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5DE1E6;
+}
+
+.BirthReg input::placeholder {
+  color: #5DE1E6;
+  opacity: 0.4;
+}
+
+.MaleReg{
+  display : block;
+  position: absolute;
+  top: 113px;
+  left: -300px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5DE1E6;
+}
+
+.FemReg{
+  display : block;
+  position: absolute;
+  top: 144px;
+  left: -300px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5DE1E6;
+}
+
+.button{
+  display : block;
+  position: absolute;
+  top: 250px;
+  left: -150px;
+}
+.button1{
+  display : block;
+  position: absolute;
+  top: 210px;
+  left: -260px;
+}
+
+input:-webkit-autofill {
+  transition: all 5000s ease-in-out 0s;
+}
+
+.KlavaCard {
+  display : block;
+  position: absolute;
+  top: 320px;
+  left: 453px;
+}
+
+.MouseCard {
+  display : block;
+  position: absolute;
+  top: 320px;
+  left: 773px;
+}
+
+.PadCard {
+  display : block;
+  position: absolute;
+  top: 320px;
+  left: 1065px;
+}
+
+.HeadsetCard {
+  display : block;
+  position: absolute;
+  top: 320px;
+  left: 1365px;
+}
+
+.KorpusCard {
+  display : block;
+  position: absolute;
+  top: 600px;
+  left: 453px;
+}
+
+.MonitorCard {
+  display : block;
+  position: absolute;
+  top: 600px;
+  left: 773px;
+}
+
+.VideocardCard {
+  display : block;
+  position: absolute;
+  top: 600px;
+  left: 1065px;
+}
+
+.CheholCard {
+  display : block;
+  position: absolute;
+  top: 600px;
+  left: 1365px;
+}
+
+.CatalogItem {
+  position: absolute;
+  left: -87px;
+  top: 60px;
+}
+
+.CatalogMenu1 li{
+  width: 60px;
+  list-style: none;
+  position: relative;
+}
+.CatalogMenu1 a {
+  padding: 0 1px;
+  height: 35px;
+  transition: all .10s;
+}
+.CatalogMenu1 ul {
+  position: absolute;
+  left: 55px;
+  top: 100%;;
+  display: none;
+  padding: 0;
+}
+
+.CatalogMenu1 li:hover ul {
+  display: list-item;
+}
+
+.CatalogMenu {
+  display : block;
+  position: absolute;
+  top: 194px;
+  left: 50px;
+}
+
+.LoginIn {
+  display : block;
+  position: absolute;
+  top: 10px;
+  left: 1480px;
+}
+
+.LoginIn input
+{
+  width: 150%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #5DE1E6;
+  outline: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5DE1E6;
+}
+
+.LoginIn input::placeholder {
+  color: #5DE1E6;
+  opacity: 0.4;
+}
+
+.PassIn {
+  display : block;
+  position: absolute;
+  top: 45px;
+  left: 1480px;
+}
+
+.PassIn input
+{
+  width: 150%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #5DE1E6;
+  outline: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5DE1E6;
+}
+
+.PassIn input::placeholder {
+  color: #5DE1E6;
+  opacity: 0.4;
+}
+
+.LoginButton {
+  display : block;
+  position: absolute;
+  top: 79px;
+  left: 1626px;
+}
+
+.RegBut {
+  display : block;
+  position: absolute;
+  top: 79px;
+  left: 1489px;
+}
+
+.SearchForm {
+  position: absolute;
+  top: 900px;
+  left: 500px;
+}
+
+.SearchForm{
+  display : block;
+  position: absolute;
+  top: 225px;
+  left: 440px;
+}
+
+.SearchForm input {
+  width: 645%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5DE1E6;
+}
+
+.SearchForm input::placeholder {
+  color: #5DE1E6;
+  opacity: 0.5;
+}
+
+.Jsearch {
+  display : block;
+  position: absolute;
+  top: 0px;
+  left: 440px;
+}
+
+.Jsearch input {
+  width: 580%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5DE1E6;
+}
+
+.Jsearch input::placeholder {
+  color: #5DE1E6;
+  opacity: 0.5;
+}
+
+.Strelka {
+  display : block;
+  position: absolute;
+  top: 700px;
+  left: 200px;
+}
+
+.BackUpperLine
+{
+  position: absolute;
+  display: block;
+  left: 8px;
+}
+
+.UpperUser {
+  display : block;
+  position: absolute;
+  top: 0px;
+  left: 1808px;
+}
+
+.UpperLine {
+  position: absolute;
+  left: 116px;
+}
+
+.UpperKorzina {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 840px;
+}
+
+.GalkaBin {
+  display: block;
+  position: absolute;
+  top: 95px;
+  left: 147px;
+}
+
+.SelectGalka {
+  display: block;
+  position: absolute;
+  top: 108px;
+  left: 200px;
+}
+
+.DeleteBin {
+  display: block;
+  position: absolute;
+  top: 108px;
+  left: 430px;
+}
+
+.NalichieBin {
+  display: block;
+  position: absolute;
+  top: 108px;
+  left: 919px;
+}
+
+.CountBin {
+  display: block;
+  position: absolute;
+  top: 108px;
+  left: 1125px;
+}
+
+.PriceBin {
+  display: block;
+  position: absolute;
+  top: 108px;
+  left: 1375px;
+}
+
+.bodyBlock {
+  position: absolute;
+  top: 150px;
+  left: 147px;
+}
+
+.WidgetBin {
+  position: absolute;
+  top: 170px;
+}
+
+.LowerLine {
+  position: absolute;
+  left: 28px;
+  top: 899px;
+}
+
+.LowerTovar {
+  position: absolute;
+  right: 600px;
+  top: 840px;
+}
+
+.LowerSum {
+  position: absolute;
+  right: 600px;
+  top: 885px;
+}
+
+.LowerButton {
+  position: absolute;
+  right: 130px;
+  top: 848px;
+}
+
+#ya-site-results
+{
+    color: #000000;
+    background: #7F01FA;
+}
+
+#ya-site-results .b-pager__current,
+#ya-site-results .b-serp-item__number
+{
+    color: #000000 !important;
+}
+
+#ya-site-results
+{
+    font-family: Arial !important;
+}
+
+#ya-site-results :visited,
+#ya-site-results .b-pager :visited,
+#ya-site-results .b-foot__link:visited,
+#ya-site-results .b-copyright__link:visited
+{
+    color: #cc99ff;
+}
+
+#ya-site-results a:link,
+#ya-site-results a:active,
+#ya-site-results .b-pseudo-link,
+#ya-site-results .b-head-tabs__link,
+#ya-site-results .b-head-tabs__link:link,
+#ya-site-results .b-head-tabs__link:visited,
+#ya-site-results .b-dropdown__list .b-pseudo-link,
+#ya-site-results .b-dropdowna__switcher .b-pseudo-link,
+.b-popupa .b-popupa__content .b-menu__item,
+#ya-site-results .b-foot__link:link,
+#ya-site-results .b-copyright__link:link,
+#ya-site-results .b-serp-item__mime,
+#ya-site-results .b-pager :link
+{
+    color: #5DE1E6;
+}
+
+#ya-site-results :link:hover,
+#ya-site-results :visited:hover,
+#ya-site-results .b-pseudo-link:hover
+{
+    color: #ff66ff !important;
+}
+
+#ya-site-results .l-page,
+#ya-site-results .b-bottom-wizard
+{
+    font-size: 13px;
+}
+
+#ya-site-results .b-pager
+{
+    font-size: 1.25em;
+}
+
+#ya-site-results .b-serp-item__text,
+#ya-site-results .ad
+{
+    font-style: normal;
+    font-weight: bold;
+}
+
+#ya-site-results .b-serp-item__title-link,
+#ya-site-results .ad .ad-link
+{
+    font-style: normal;
+    font-weight: bold;
+}
+
+#ya-site-results .ad .ad-link a
+{
+    font-weight: bold;
+}
+
+#ya-site-results .b-serp-item__title,
+#ya-site-results .ad .ad-link
+{
+    font-size: 16px;
+}
+
+#ya-site-results .b-serp-item__title-link:link,
+#ya-site-results .b-serp-item__title-link
+{
+    font-size: 1em;
+}
+
+#ya-site-results .b-serp-item__number
+{
+    font-size: 13px;
+}
+
+#ya-site-results .ad .ad-link a
+{
+    font-size: 0.88em;
+}
+
+#ya-site-results .b-serp-url,
+#ya-site-results .b-direct .url,
+#ya-site-results .b-direct .url a:link,
+#ya-site-results .b-direct .url a:visited
+{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    color: #00cc66;
+}
+
+#ya-site-results .b-serp-item__links-link
+{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000 !important;
+}
+
+#ya-site-results .b-pager__inactive,
+#ya-site-results .b-serp-item__from,
+#ya-site-results .b-direct__head-link,
+#ya-site-results .b-image__title,
+#ya-site-results .b-video__title
+{
+    color: #000000 !important;
+}
+
+#ya-site-results .b-pager__current,
+#ya-site-results .b-pager__select
+{
+    background: #E0E0E0;
+}
+
+#ya-site-results .b-foot,
+#ya-site-results .b-line
+{
+    border-top-color: #E0E0E0;
+}
+
+#ya-site-results .b-dropdown__popup .b-dropdown__list,
+.b-popupa .b-popupa__content
+{
+    background-color: #7F01FA;
+}
+
+.b-popupa .b-popupa__tail
+{
+    border-color: #E0E0E0 transparent;
+}
+
+.b-popupa .b-popupa__tail-i
+{
+    border-color: #7F01FA transparent;
+}
+
+.b-popupa_direction_left.b-popupa_theme_ffffff .b-popupa__tail-i,
+.b-popupa_direction_right.b-popupa_theme_ffffff .b-popupa__tail-i
+{
+    border-color: transparent #7F01FA;
+}
+
+#ya-site-results .b-dropdowna__popup .b-menu_preset_vmenu .b-menu__separator
+{
+    border-color: #E0E0E0;
+}
+
+.b-specification-list,
+.b-specification-list .b-pseudo-link,
+.b-specification-item__content label,
+.b-specification-item__content .b-link,
+.b-specification-list .b-specification-list__reset .b-link
+{
+    color: #000000 !important;
+    font-family: Arial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.b-specification-item__content .b-calendar__title
+{
+    font-family: Arial;
+    color: #000000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.b-specification-item__content .b-calendar-month__day_now_yes
+{
+    color: #E0E0E0;
+}
+
+.b-specification-item__content .b-calendar .b-pseudo-link
+{
+    color: #000000;
+}
+
+.b-specification-item__content
+{
+    font-family: Arial !important;
+    font-size: 13px;
+}
+
+.b-specification-item__content :visited
+{
+    color: #cc99ff;
+}
+
+.b-specification-item__content .b-pseudo-link:hover,
+.b-specification-item__content :visited:hover
+{
+    color: #ff66ff !important;
+}
+
+#ya-site-results .b-popupa .b-popupa__tail-i
+{
+    background: #7F01FA;
+    border-color: #E0E0E0 !important;
+}

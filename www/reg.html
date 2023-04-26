@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel='stylesheet' href='style.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>2LOUD - интернет каталог</title>
+  </head>
+  <style>
+    body{background-image: url(/img/fontLog.png);}
+  </style>
+  
+  <body>
+    <div class = "RegWidget">
+      <img class = 'WidgetReg' src = '/img/RegForm.png'>  
+      <div class = 'login2 '>
+        <form action="core/signup.php" method="POST">
+          <div class = "Poles">
+           <div class = 'NameReg'><input type="text" name="name" placeholder="Логин" autocomplete="name"></div>
+           <div class = 'PassReg'><input type="text" name="pass" placeholder="Пароль" autocomplete="password"></div>
+           <div class = 'EmailReg'><input type="text" name="email" placeholder="Почта" autocomplete="email"></div>
+           <div class = 'BirthReg'><input type="text" name="birthday" placeholder="Дата рождения"></div>
+           <div class = 'GenderReg'>
+             <div class = 'MaleReg'><input type="radio" value="male" name="sex">Мужчина</div>
+             <div class = 'FemReg'><input type="radio" value="female" name="sex">Женщина</div>
+           </div>
+          </div> 
+          <input type="image" class = "button1" src = "img/Submit.png">
+        </form>
+      </div>  
+    </div>  
+      <a class='nav-item' href='index.html' title = "НА ГЛАВНУЮ">
+        <img class = 'Strelka' src = 'img/Strelka.png' alt = "">
+      </a>           
+    <script src="script/ajax.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
